@@ -1,4 +1,5 @@
 import math
+from flask import Flask, request, jsonify
 
 movies = [
     {"id": 1, "title": "Interstellar", "genre": "Sci-Fi", "year": 2014, "rating": 8.7},
